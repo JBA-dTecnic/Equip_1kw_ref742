@@ -250,8 +250,8 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Data.ctl" Type="VI" URL="../../../../../Program Files/National Instruments/LabVIEW 2017/ProjectTemplates/Source/Core/Simple State Machine/controls/Data.ctl"/>
-			<Item Name="StateEsclatometre.ctl" Type="VI" URL="../../../../../Program Files/National Instruments/LabVIEW 2017/ProjectTemplates/Source/Core/Simple State Machine/controls/StateEsclatometre.ctl"/>
+			<Item Name="Data.ctl" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2017/ProjectTemplates/Source/Core/Simple State Machine/controls/Data.ctl"/>
+			<Item Name="StateEsclatometre.ctl" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2017/ProjectTemplates/Source/Core/Simple State Machine/controls/StateEsclatometre.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Esclatometre_USB" Type="EXE">
@@ -277,7 +277,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Conus2.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{98449C7A-F363-4F7B-AFCC-F83F9937936D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4F9B6B4B-2DFF-47F9-A42E-3400F221D8B2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Esclatometre_USB.vi</Property>
