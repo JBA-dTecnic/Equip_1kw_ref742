@@ -277,7 +277,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Conus2.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4F9B6B4B-2DFF-47F9-A42E-3400F221D8B2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2F0E4BBB-42A5-4B18-AA47-F4CCD6E0C773}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Esclatometre_USB.vi</Property>
@@ -292,7 +292,7 @@
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Esclatometre_USB</Property>
 				<Property Name="TgtF_internalName" Type="Str">Esclatometre_USB</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014-2018</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023</Property>
 				<Property Name="TgtF_productName" Type="Str">Esclatometre_USB</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B5E504F9-B2CC-419A-BD03-C0E9FDA0008A}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">EsclatometreUSB.exe</Property>
@@ -416,7 +416,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{A5B88828-3D1A-4214-B60E-483F4808DD5D}</Property>
 				<Property Name="INST_mediaSize" Type="Int">4700</Property>
 				<Property Name="INST_productName" Type="Str">EsclatometreUSB</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.39</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.40</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">17008006</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Instruments J.Bot,S.A.</Property>
@@ -430,117 +430,147 @@
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{1C280228-E102-4AD8-B3FF-4EEFC3B21FDE}</Property>
 				<Property Name="RegDest[0].parentTag" Type="Str">1</Property>
-				<Property Name="RegDest[1].dirName" Type="Str">Adcon</Property>
+				<Property Name="RegDest[1].dirName" Type="Str">JBA</Property>
 				<Property Name="RegDest[1].dirTag" Type="Str">{5D866B57-5EAF-43A7-9688-5426FA5BD96F}</Property>
 				<Property Name="RegDest[1].parentTag" Type="Str">{1C280228-E102-4AD8-B3FF-4EEFC3B21FDE}</Property>
-				<Property Name="RegDest[2].dirName" Type="Str">ConusUSB</Property>
-				<Property Name="RegDest[2].dirTag" Type="Str">{DA3068E0-218F-4090-B29D-8D6587751E73}</Property>
-				<Property Name="RegDest[2].parentTag" Type="Str">{5D866B57-5EAF-43A7-9688-5426FA5BD96F}</Property>
-				<Property Name="RegDest[3].dirName" Type="Str">Software</Property>
-				<Property Name="RegDest[3].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
-				<Property Name="RegDest[3].parentTag" Type="Str">2</Property>
-				<Property Name="RegDestCount" Type="Int">4</Property>
-				<Property Name="RegGroup[0].dirTag" Type="Str">{DA3068E0-218F-4090-B29D-8D6587751E73}</Property>
-				<Property Name="RegGroup[0].RegData[0].data" Type="Str">JBA</Property>
-				<Property Name="RegGroup[0].RegData[0].name" Type="Str">APrograma</Property>
-				<Property Name="RegGroup[0].RegData[0].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[1].data" Type="Str">0,00017857</Property>
-				<Property Name="RegGroup[0].RegData[1].name" Type="Str">C1</Property>
+				<Property Name="RegDest[2].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[2].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[2].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">3</Property>
+				<Property Name="RegGroup[0].dirTag" Type="Str">{5D866B57-5EAF-43A7-9688-5426FA5BD96F}</Property>
+				<Property Name="RegGroup[0].RegData[1].data" Type="Str">0</Property>
+				<Property Name="RegGroup[0].RegData[1].name" Type="Str">ParoFinalAssaig</Property>
 				<Property Name="RegGroup[0].RegData[1].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[10].data" Type="Str">Extensómetro</Property>
-				<Property Name="RegGroup[0].RegData[10].name" Type="Str">Extensometre</Property>
+				<Property Name="RegGroup[0].RegData[10].data" Type="Str">0</Property>
+				<Property Name="RegGroup[0].RegData[10].name" Type="Str">CaptadorDActiu</Property>
 				<Property Name="RegGroup[0].RegData[10].type" Type="Str">String</Property>
 				<Property Name="RegGroup[0].RegData[11].data" Type="Str">0</Property>
-				<Property Name="RegGroup[0].RegData[11].name" Type="Str">ExtensometrePotenciometric</Property>
+				<Property Name="RegGroup[0].RegData[11].name" Type="Str">Captador</Property>
 				<Property Name="RegGroup[0].RegData[11].type" Type="Str">String</Property>
 				<Property Name="RegGroup[0].RegData[12].data" Type="Str">0</Property>
-				<Property Name="RegGroup[0].RegData[12].name" Type="Str">ParoDeforActiu</Property>
+				<Property Name="RegGroup[0].RegData[12].name" Type="Str">Calibrar</Property>
 				<Property Name="RegGroup[0].RegData[12].type" Type="Str">String</Property>
 				<Property Name="RegGroup[0].RegData[13].data" Type="Str">0</Property>
-				<Property Name="RegGroup[0].RegData[13].name" Type="Str">ParoRoturaActiu</Property>
+				<Property Name="RegGroup[0].RegData[13].name" Type="Str">C3</Property>
 				<Property Name="RegGroup[0].RegData[13].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[14].data" Type="Str">JBA</Property>
-				<Property Name="RegGroup[0].RegData[14].name" Type="Str">Password</Property>
+				<Property Name="RegGroup[0].RegData[14].data" Type="Str">2</Property>
+				<Property Name="RegGroup[0].RegData[14].name" Type="Str">C2</Property>
 				<Property Name="RegGroup[0].RegData[14].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[15].data" Type="Str">0.5</Property>
-				<Property Name="RegGroup[0].RegData[15].name" Type="Str">Precarga</Property>
+				<Property Name="RegGroup[0].RegData[15].data" Type="Str">1</Property>
+				<Property Name="RegGroup[0].RegData[15].name" Type="Str">C1</Property>
 				<Property Name="RegGroup[0].RegData[15].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[16].data" Type="Str">0</Property>
-				<Property Name="RegGroup[0].RegData[16].name" Type="Str">PrecargaActiva</Property>
+				<Property Name="RegGroup[0].RegData[16].data" Type="Str">4</Property>
+				<Property Name="RegGroup[0].RegData[16].name" Type="Str">C0</Property>
 				<Property Name="RegGroup[0].RegData[16].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[17].data" Type="Str">9</Property>
-				<Property Name="RegGroup[0].RegData[17].name" Type="Str">PrimerCaptador</Property>
+				<Property Name="RegGroup[0].RegData[17].data" Type="Str">JBA</Property>
+				<Property Name="RegGroup[0].RegData[17].name" Type="Str">APrograma</Property>
 				<Property Name="RegGroup[0].RegData[17].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[18].data" Type="Str">0</Property>
-				<Property Name="RegGroup[0].RegData[18].name" Type="Str">ResExten</Property>
+				<Property Name="RegGroup[0].RegData[18].data" Type="Str">JBA</Property>
+				<Property Name="RegGroup[0].RegData[18].name" Type="Str">Password</Property>
 				<Property Name="RegGroup[0].RegData[18].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[19].data" Type="Str">2,5</Property>
-				<Property Name="RegGroup[0].RegData[19].name" Type="Str">Rotura</Property>
+				<Property Name="RegGroup[0].RegData[19].data" Type="Str">100</Property>
+				<Property Name="RegGroup[0].RegData[19].name" Type="Str">Precarga</Property>
 				<Property Name="RegGroup[0].RegData[19].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[2].data" Type="Str">20</Property>
-				<Property Name="RegGroup[0].RegData[2].name" Type="Str">C2</Property>
+				<Property Name="RegGroup[0].RegData[2].data" Type="Str">0</Property>
+				<Property Name="RegGroup[0].RegData[2].name" Type="Str">ParoDeforActiu</Property>
 				<Property Name="RegGroup[0].RegData[2].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[20].data" Type="Str">17</Property>
-				<Property Name="RegGroup[0].RegData[20].name" Type="Str">SegonCaptador</Property>
+				<Property Name="RegGroup[0].RegData[20].data" Type="Str">0</Property>
+				<Property Name="RegGroup[0].RegData[20].name" Type="Str">PrecargaActiva</Property>
 				<Property Name="RegGroup[0].RegData[20].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[21].data" Type="Str">300</Property>
-				<Property Name="RegGroup[0].RegData[21].name" Type="Str">SobrecargaC1</Property>
+				<Property Name="RegGroup[0].RegData[21].data" Type="Str">22</Property>
+				<Property Name="RegGroup[0].RegData[21].name" Type="Str">PrimerCaptador</Property>
 				<Property Name="RegGroup[0].RegData[21].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[22].data" Type="Str">9,5</Property>
-				<Property Name="RegGroup[0].RegData[22].name" Type="Str">SobrecargaC2</Property>
+				<Property Name="RegGroup[0].RegData[22].data" Type="Str">0</Property>
+				<Property Name="RegGroup[0].RegData[22].name" Type="Str">ResExten</Property>
 				<Property Name="RegGroup[0].RegData[22].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[23].data" Type="Str">250</Property>
-				<Property Name="RegGroup[0].RegData[23].name" Type="Str">TempsLectura</Property>
+				<Property Name="RegGroup[0].RegData[23].data" Type="Str">10</Property>
+				<Property Name="RegGroup[0].RegData[23].name" Type="Str">Rotura</Property>
 				<Property Name="RegGroup[0].RegData[23].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[24].data" Type="Str">0</Property>
-				<Property Name="RegGroup[0].RegData[24].name" Type="Str">Unidades</Property>
+				<Property Name="RegGroup[0].RegData[24].data" Type="Str">25</Property>
+				<Property Name="RegGroup[0].RegData[24].name" Type="Str">SegonCaptador</Property>
 				<Property Name="RegGroup[0].RegData[24].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[25].data" Type="Str">0,1,3,6,</Property>
-				<Property Name="RegGroup[0].RegData[25].name" Type="Str">Unidades C1</Property>
+				<Property Name="RegGroup[0].RegData[25].data" Type="Str">490</Property>
+				<Property Name="RegGroup[0].RegData[25].name" Type="Str">Sobrecarga</Property>
 				<Property Name="RegGroup[0].RegData[25].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[26].data" Type="Str">0,3,</Property>
-				<Property Name="RegGroup[0].RegData[26].name" Type="Str">Unidades C2</Property>
+				<Property Name="RegGroup[0].RegData[26].data" Type="Str">35</Property>
+				<Property Name="RegGroup[0].RegData[26].name" Type="Str">SobrecargaC1</Property>
 				<Property Name="RegGroup[0].RegData[26].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[27].data" Type="Str">0</Property>
-				<Property Name="RegGroup[0].RegData[27].name" Type="Str">UnitatDActual</Property>
+				<Property Name="RegGroup[0].RegData[27].data" Type="Str">9</Property>
+				<Property Name="RegGroup[0].RegData[27].name" Type="Str">CobrecargaC2</Property>
 				<Property Name="RegGroup[0].RegData[27].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[28].data" Type="Str">0</Property>
-				<Property Name="RegGroup[0].RegData[28].name" Type="Str">UnitatFActual</Property>
+				<Property Name="RegGroup[0].RegData[28].data" Type="Str">0.4</Property>
+				<Property Name="RegGroup[0].RegData[28].name" Type="Str">T0</Property>
 				<Property Name="RegGroup[0].RegData[28].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[29].data" Type="Str">100</Property>
-				<Property Name="RegGroup[0].RegData[29].name" Type="Str">Velocitat</Property>
+				<Property Name="RegGroup[0].RegData[29].data" Type="Str">0</Property>
+				<Property Name="RegGroup[0].RegData[29].name" Type="Str">T1</Property>
 				<Property Name="RegGroup[0].RegData[29].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[3].data" Type="Str">5</Property>
-				<Property Name="RegGroup[0].RegData[3].name" Type="Str">C3</Property>
+				<Property Name="RegGroup[0].RegData[3].data" Type="Str">0</Property>
+				<Property Name="RegGroup[0].RegData[3].name" Type="Str">ParoCArgaActiu</Property>
 				<Property Name="RegGroup[0].RegData[3].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[30].data" Type="Str">500</Property>
-				<Property Name="RegGroup[0].RegData[30].name" Type="Str">Velocitat Màxima</Property>
+				<Property Name="RegGroup[0].RegData[30].data" Type="Str">0</Property>
+				<Property Name="RegGroup[0].RegData[30].name" Type="Str">T2</Property>
 				<Property Name="RegGroup[0].RegData[30].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[31].data" Type="Str">400</Property>
-				<Property Name="RegGroup[0].RegData[31].name" Type="Str">Velocitat Retorn</Property>
+				<Property Name="RegGroup[0].RegData[31].data" Type="Str">0</Property>
+				<Property Name="RegGroup[0].RegData[31].name" Type="Str">T3</Property>
 				<Property Name="RegGroup[0].RegData[31].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[32].data" Type="Str">0</Property>
-				<Property Name="RegGroup[0].RegData[32].name" Type="Str">MotorBipolar</Property>
+				<Property Name="RegGroup[0].RegData[32].data" Type="Str">250</Property>
+				<Property Name="RegGroup[0].RegData[32].name" Type="Str">TempsLectura</Property>
 				<Property Name="RegGroup[0].RegData[32].type" Type="Str">String</Property>
+				<Property Name="RegGroup[0].RegData[33].data" Type="Str">Deformación</Property>
+				<Property Name="RegGroup[0].RegData[33].name" Type="Str">TextDefor</Property>
+				<Property Name="RegGroup[0].RegData[33].type" Type="Str">String</Property>
+				<Property Name="RegGroup[0].RegData[34].data" Type="Str">Tiempo</Property>
+				<Property Name="RegGroup[0].RegData[34].name" Type="Str">TextTemps</Property>
+				<Property Name="RegGroup[0].RegData[34].type" Type="Str">String</Property>
+				<Property Name="RegGroup[0].RegData[35].data" Type="Str">7</Property>
+				<Property Name="RegGroup[0].RegData[35].name" Type="Str">Unidades</Property>
+				<Property Name="RegGroup[0].RegData[35].type" Type="Str">String</Property>
+				<Property Name="RegGroup[0].RegData[36].data" Type="Str">7,8</Property>
+				<Property Name="RegGroup[0].RegData[36].name" Type="Str">Unidades C1</Property>
+				<Property Name="RegGroup[0].RegData[36].type" Type="Str">String</Property>
+				<Property Name="RegGroup[0].RegData[37].data" Type="Str">7,</Property>
+				<Property Name="RegGroup[0].RegData[37].name" Type="Str">Unidades C2</Property>
+				<Property Name="RegGroup[0].RegData[37].type" Type="Str">String</Property>
+				<Property Name="RegGroup[0].RegData[38].data" Type="Str">0</Property>
+				<Property Name="RegGroup[0].RegData[38].name" Type="Str">UnitatDActual</Property>
+				<Property Name="RegGroup[0].RegData[38].type" Type="Str">String</Property>
+				<Property Name="RegGroup[0].RegData[39].data" Type="Str">7</Property>
+				<Property Name="RegGroup[0].RegData[39].name" Type="Str">UnitatFActual</Property>
+				<Property Name="RegGroup[0].RegData[39].type" Type="Str">String</Property>
 				<Property Name="RegGroup[0].RegData[4].data" Type="Str">0</Property>
-				<Property Name="RegGroup[0].RegData[4].name" Type="Str">CapatadorDActiu</Property>
+				<Property Name="RegGroup[0].RegData[4].name" Type="Str">MotorBipolar</Property>
 				<Property Name="RegGroup[0].RegData[4].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[5].data" Type="Str">0</Property>
-				<Property Name="RegGroup[0].RegData[5].name" Type="Str">Captador</Property>
+				<Property Name="RegGroup[0].RegData[40].data" Type="Str">2</Property>
+				<Property Name="RegGroup[0].RegData[40].name" Type="Str">ValorParoCarga</Property>
+				<Property Name="RegGroup[0].RegData[40].type" Type="Str">String</Property>
+				<Property Name="RegGroup[0].RegData[41].data" Type="Str">240</Property>
+				<Property Name="RegGroup[0].RegData[41].name" Type="Str">Velocitat</Property>
+				<Property Name="RegGroup[0].RegData[41].type" Type="Str">String</Property>
+				<Property Name="RegGroup[0].RegData[42].data" Type="Str">280</Property>
+				<Property Name="RegGroup[0].RegData[42].name" Type="Str">Velocitat Màxima</Property>
+				<Property Name="RegGroup[0].RegData[42].type" Type="Str">String</Property>
+				<Property Name="RegGroup[0].RegData[43].data" Type="Str">240</Property>
+				<Property Name="RegGroup[0].RegData[43].name" Type="Str">Velocitat Retorn</Property>
+				<Property Name="RegGroup[0].RegData[43].type" Type="Str">String</Property>
+				<Property Name="RegGroup[0].RegData[44].data" Type="Str">0</Property>
+				<Property Name="RegGroup[0].RegData[44].name" Type="Str">ViuMotor</Property>
+				<Property Name="RegGroup[0].RegData[44].type" Type="Str">String</Property>
+				<Property Name="RegGroup[0].RegData[5].data" Type="Str">ES</Property>
+				<Property Name="RegGroup[0].RegData[5].name" Type="Str">Idioma</Property>
 				<Property Name="RegGroup[0].RegData[5].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[6].data" Type="Str">0</Property>
-				<Property Name="RegGroup[0].RegData[6].name" Type="Str">CaptadorFActiu</Property>
+				<Property Name="RegGroup[0].RegData[6].data" Type="Str">1</Property>
+				<Property Name="RegGroup[0].RegData[6].name" Type="Str">Desplazamiento</Property>
 				<Property Name="RegGroup[0].RegData[6].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[7].data" Type="Str">67,6550</Property>
-				<Property Name="RegGroup[0].RegData[7].name" Type="Str">CO</Property>
+				<Property Name="RegGroup[0].RegData[7].data" Type="Str">0</Property>
+				<Property Name="RegGroup[0].RegData[7].name" Type="Str">DeforActiva</Property>
 				<Property Name="RegGroup[0].RegData[7].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[8].data" Type="Str">Deformación</Property>
-				<Property Name="RegGroup[0].RegData[8].name" Type="Str">Deformacio</Property>
+				<Property Name="RegGroup[0].RegData[8].data" Type="Str">67.6550</Property>
+				<Property Name="RegGroup[0].RegData[8].name" Type="Str">CO</Property>
 				<Property Name="RegGroup[0].RegData[8].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegData[9].data" Type="Str">0</Property>
-				<Property Name="RegGroup[0].RegData[9].name" Type="Str">Desplazamiento</Property>
+				<Property Name="RegGroup[0].RegData[9].data" Type="Str">22</Property>
+				<Property Name="RegGroup[0].RegData[9].name" Type="Str">CaptadorFActiu</Property>
 				<Property Name="RegGroup[0].RegData[9].type" Type="Str">String</Property>
-				<Property Name="RegGroup[0].RegDataCount" Type="Int">33</Property>
+				<Property Name="RegGroup[0].RegDataCount" Type="Int">45</Property>
 				<Property Name="RegGroupCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{A5B88828-3D1A-4214-B60E-483F4808DD5D}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{A5B88828-3D1A-4214-B60E-483F4808DD5D}</Property>
